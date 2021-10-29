@@ -8,11 +8,16 @@
 ```
   npm install --global yarn
 ```
+- Ter o docker e docker-compose instalado
 
 ## Executando o projeto
-- Baixar as dependencias 
+- Baixar as dependencias
 ```
   yarn install
+```
+- Executar docker files e config ambiente
+```
+  docker-compose up
 ```
 - Executar
 ```
