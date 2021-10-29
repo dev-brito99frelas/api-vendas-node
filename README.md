@@ -19,6 +19,10 @@
 ```
   docker-compose up
 ```
+- Rodar as migrations
+```
+  yarn run typeorm migration:run
+```
 - Executar
 ```
   yarn run dev
