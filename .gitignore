@@ -121,18 +121,18 @@ dist
 .yarn / build-state.yml
 .yarn / install-state.gz
 .pnp. *
-
+dbdata/
 .webpack /
-.idea/ 
+.idea/
 .vscode/
 node_modules/
 build/
 temp/
-.env               
+.env
 coverage
-ormconfig.json         
+ormconfig.json
 dist
-uploads/*            
+uploads/*
 !uploads/
 .gitkeep
 
