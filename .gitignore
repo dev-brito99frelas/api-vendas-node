@@ -123,17 +123,16 @@ dist
 .pnp. *
 dbdata/
 .webpack /
-.idea/
-.vscode/
-node_modules/
-build/
-temp/
+.idea /
+.vscode /
+build /
+temp /
 .env
 coverage
 ormconfig.json
 dist
-uploads/*
-!uploads/
+uploads /*
+!uploads /
 .gitkeep
 
 # Fim de https://www.toptal.com/developers/gitignore/api/node
