@@ -8,9 +8,14 @@ interface IRequest {
   name: string;
   price: number;
   quantity: number;
- }
- class UpdateProductService {
-  public async execute({ id,name, price, quantity, }: IRequest): Promise<Product | undefined> {
+}
+class UpdateProductService {
+  public async execute({
+    id,
+    name,
+    price,
+    quantity,
+  }: IRequest): Promise<Product | undefined> {
     const produtsRepository = getCustomRepository(ProductRepository);
     const product = await produtsRepository.findOne(id);
     if (!product) {
@@ -26,5 +31,5 @@ interface IRequest {
     await produtsRepository.save(product);
     return product;
   }
- }
- export default UpdateProductService;
+}
+export default UpdateProductService;
